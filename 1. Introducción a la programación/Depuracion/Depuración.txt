@@ -1,0 +1,11 @@
+Depuración mediante un depurador en vez de prints:
+
+	- Punto de ruptura (Breakpoint):
+		Pulsando a la izquierda en una línea con código se pone un punto rojo. Si le damos 
+		a debug, el programa parará en ese punto mostrando las variables con sus valores
+		hasta ese momento.
+	- Watcher:
+		Exactamente igual pero botón derecho sobre el punto rojo nos deja introducir condiciones
+		bajo las cuales el debug parará ahí o no.
+	- Pila de llamadas:
+		El depurador nos avisa y sucede esta práctica durante el código.

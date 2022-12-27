@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+</head>
+<body>
+    <!--Esto no es necesario saberlo todavía pero es funcional-->
+    <h3>Estos son los resultados</h3>
+    <div id="resultados"></div>
+    <br>
+    <a href="/02-Forms-Tables/resultados.html">Volver al formulario</a>
+</body>
+<!--Un poco de JavaScript-->
+<script>
+    const resDiv = document.getElementById("resultados")
+    new URLSearchParams(window.location.search).forEach((val, name) => {
+        resDiv.append(`${name}: ${val}`)
+        resDiv.append(document.createElement('br'))
+    })
+</script>
+</html>

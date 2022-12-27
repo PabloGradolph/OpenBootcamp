@@ -1,0 +1,57 @@
+Lo que tienes que saber para dedicarte:
+	- Tienes que saber crear entornos de desarrollo python venv o pyenv (mirar segunda clase del curso)
+	- DOCUMENTACIÓN: python.org
+	- Datos primitivos
+	- Datos complejos/Estructuras de datos
+	- Condicionales
+	- Bucles
+	- Funciones
+	- Paradigma de la programación orientada a objetos:
+		- Clases/Objetos/Atributos/Métodos
+		- Herencia (simple, múltiple...)
+		- Polimorfismo
+		- Encapsulación
+		- Abstracción
+		- Composición
+	- Importación de módulos y paquetes:
+		- Módulos simples con sus funciones y clases
+		- Paquetes completos:
+			- Necesarios el fichero __init__.py
+			- __all__ = ['lo que sea'] para hacer un from paquete import *
+	- Trabajo en ficheros/tablas etc:
+		- .txt
+		- .xlsx
+		- Pandas
+	- Serialización de datos:
+		- Pickle
+	- Interfaces de usuario:
+		- Tkinter
+		- PyQt
+		- Hay otra
+	- Bases de Datos:
+		- Sqlite3
+		- Pygresql
+		- Meter mysql
+		- Meter otras sql
+		- Pymongo (bases de datos no sql)
+	- ORM (de mi cosecha) para trabajar con las bases de datos:
+		- Pewee
+	- Paradigma de la programación multihilo:
+		- _thread (funciones)
+		- Thread (clases)
+	- Biblioteca estándar de python y funciones built-in:
+		- Logging
+		- Map, Filter, Reduce
+		- zip
+		- format
+		- all, any
+		- round, min, max, pow, sorted...
+		- input y getpass
+		- Muchas otras (mirar documentación)
+	- Frameworks:
+		- Django
+		- Flask
+	- Cálculos científicos:
+		- Numpy
+		- Scipy
+		- Matplotlib

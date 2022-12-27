@@ -1,0 +1,10 @@
+Errores típicos de programador:
+
+	- No comentar nada.
+	- Comentar demasiado, cada paso que haces.
+	- Poner nombre a las variables que no tienen sentido.
+	- No seguir siempre la misma guía de estilos.
+	- Utilizar código/funciones complejas conociendo otras más sencillas que hagan más legible el código.
+	- Hacer una depuración del código a base de imprimir por pantalla en vez de usar un depurador.
+	- Creamos funciones enormes. NO HAY QUE MOVER EL PROBLEMA DEL MAIN (mucho código) A UNA FUNCIÓN.
+	- Las funciones tienen que obedecer única y exclusivamente a su cometido. Cumplir con el nombre de la función.
