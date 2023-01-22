@@ -1,0 +1,12 @@
+h1{
+    color: red;
+}
+
+/*
+* Estoy probando colores y fuentes.
+* Además, esto es un comentario en CSS
+*/
+p {
+    color: blue;
+    font-size: 20pt;
+}
