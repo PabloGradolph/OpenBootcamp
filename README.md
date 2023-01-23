@@ -5,5 +5,5 @@ Repositorio con todos mis códigos de los diferentes cursos que he hecho en la p
 <h2 align="center">Enlace al Bootcamp:</h2>
 
 <p align="center">
-  <a href="https://open-bootcamp.com/" target="blank"><img src="OpenBootcamp.jpg" alt="imagen-OpenBootcamp" style="padding:10px; border-radius: 10px;" >
+  <a href="https://open-bootcamp.com/" target="blank"><img src="OpenBootcamp2.jpg" alt="imagen-OpenBootcamp" style="padding:10px; border-radius: 10px;" >
 </p>
