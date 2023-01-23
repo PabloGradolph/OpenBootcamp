@@ -1,0 +1,23 @@
+.div-1, .div-2 {
+    background-color: red;
+    /* display: block; POR DEFECTO */
+}
+
+.span-1 {
+    background-color: aquamarine;
+    /* display: inline; POR DEFECTO */
+    float: left;
+}
+
+.span-2 {
+    background-color: aquamarine;
+    /* display: inline; POR DEFECTO */
+    float: right;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    /* display: inline-block; POR DEFECTO */
+}
+
