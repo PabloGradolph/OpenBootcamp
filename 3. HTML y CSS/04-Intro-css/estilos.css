@@ -6,7 +6,41 @@ h1{
 * Estoy probando colores y fuentes.
 * Además, esto es un comentario en CSS
 */
+
 p {
     color: blue;
-    font-size: 20pt;
+    font-size: 16pt;
+}
+
+/*
+Accediendo a selectores id
+*/
+p#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    color: darkmagenta;
+}
+
+/*
+Accediendo a selectores de clase
+*/
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/*
+Accediendo a selectores universal
+Todas las etiquetas adquieren esto a no ser que se les especifique lo contrario
+*/
+
+*.warning {
+    color: red;
+}
+
+.autor, .fecha, .ubicacion {
+    text-decoration: underline;
 }

@@ -1,0 +1,10 @@
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+#elemento-1 {
+    color: red;
+}
+#elemento-1.primera-lista{
+    font-size: 2rem;
+}
