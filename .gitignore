@@ -24,9 +24,5 @@ bin-release/
 # Carpetas comprimidas
 *.zip
 
-# Fotos
-*.jpg
-*.png
-
 # Entornos
 *.idea
