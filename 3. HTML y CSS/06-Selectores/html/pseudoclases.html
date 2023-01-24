@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Clases</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Pseudoclases más utilizadas a día de hoy */
+        /* Todas las que hay en: https://www.w3schools.com/css/css_pseudo_classes.asp */
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        .hover:hover {
+            /* Se activa en cuanto el ratón pasa por encima */
+            background-color: burlywood;
+        }
+
+        .listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+        
+        .listado p:first-child {
+            color: white;
+        }
+
+        a:link { 
+            /* Link no visitado todavía */
+            color: deeppink;
+        }
+
+        a:visited {
+            /* Link ya visitado */
+            color: crimson;
+        }
+
+        a:hover {
+            color: pink;
+        }
+
+        a:active {
+            color: greenyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero provident incidunt nisi, corporis expedita sit dolorem laborum quisquam corrupti quod nam harum minima, magnam culpa nemo. Beatae, fugit placeat?</p>
+    </div>
+    <div class="listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace a Google</a>
+        <a href="http://marca.com" target="_blank">Enlace a Marca</a>
+        <!-- target="_blank" abre el enlace en otra pestaña -->
+    </div>
+</body>
+</html>
