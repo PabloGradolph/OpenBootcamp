@@ -10,9 +10,11 @@ Repositorio con todos mis códigos de los diferentes cursos que he hecho en la p
   
   - *Introducción a la programación:* En este módulo aprenderéis las bases de la programación desde cero para que, sea cual sea el lenguaje que queráis abordar, tengáis claros los conceptos.
   
-  - *Python:* Lenguaje de programación interpretado que tiene como máxima destacar por una sintaxis que favorezca la legibilidad del código. Se trata de un lenguaje que soporta varios paradigmas tales como POO, programación imperativa y funcional.
+  - *Python:* Lenguaje de programación interpretado que tiene como máxima destacar por una sintaxis que favorezca la legibilidad del código. Se trata de un lenguaje que soporta varios paradigmas tales como POO, programación imperativa y funcional.<br>
+[![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)]()
   
-  - *HTML y CSS:* Con este curso de HTML y CSS aprenderás las bases de todo desarrollo web, pues ambos son los lenguajes estándar para el desarrollo de páginas web en el mundo. Empieza a maquetar tus aplicaciones y páginas web de manera profesional desde 0.
+  - *HTML y CSS:* Con este curso de HTML y CSS aprenderás las bases de todo desarrollo web, pues ambos son los lenguajes estándar para el desarrollo de páginas web en el mundo. Empieza a maquetar tus aplicaciones y páginas web de manera profesional desde 0.<br>
+[![HTML5](https://img.shields.io/badge/html-blue?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)]() [![CSS](https://img.shields.io/badge/css-red?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)]()
 
 <h2>Enlace al Bootcamp: :link:</h2>
 
