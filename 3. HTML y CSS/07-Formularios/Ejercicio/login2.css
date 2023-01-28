@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Ubuntu', sans-serif;
+    background-color: #161717;
 }
 
 .container {
@@ -39,23 +40,29 @@
     width: 35px;
     height: 35px;
     background-color: white;
-    border-radius: 2px;
+    margin: 1px;
+    border-radius: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .google-btn picture img {
+    background-color: white;
     width: 75%;
 }
 
 .google-btn span {
+    background-color: #1A73E8;
     color: white;
     font-weight: 500;
-    padding: 15px;
+    padding: 10px;
 }
 
 .twitter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #ccc;
     background-color: #eee;
     border: none;
@@ -64,8 +71,14 @@
     cursor: pointer;
 }
 
+.twitter-btn picture {
+    padding: 1px;
+    background-color: #eee;
+}
+
 .twitter-btn picture img {
-    width: 100%;
+    width: 110%;
+    border-radius: 2px;
 }
 
 .separator {
@@ -81,11 +94,11 @@
 .separator hr {
     flex-grow: 1;
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid white;
 }
 
 .separator span {
-    color: #8b8b8b;
+    color: white;
 }
 
 .section-inputs {
@@ -95,6 +108,7 @@
 }
 
 form {
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -112,8 +126,9 @@ label span {
 }
 
 .section-inputs label input {
+    color: white;
     width: 80%;
-    background-color: #f3f3f4;
+    background-color: #212121;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -122,8 +137,9 @@ label span {
 }
 
 label input {
+    color: white;
     width: 90%;
-    background-color: #f3f3f4;
+    background-color: #212121;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -133,13 +149,13 @@ label input {
 }
 
 label input:hover {
-    background-color: white;
+    background-color: #454045;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px #eb50ff4f;
 }
 
 label input:focus {
-    background-color: white;
+    background-color: #454045;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px #eb50ff4f;
 }
