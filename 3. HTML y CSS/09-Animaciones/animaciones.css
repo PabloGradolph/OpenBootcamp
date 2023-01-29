@@ -1,0 +1,41 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    /* transition: transform 1s ease-in-out 1s; */
+    /* propiedad tiempo cadencia delay*/
+    animation: traslacion 3s infinite forwards alternate;
+    /* nombre; duración; número de veces; para-mantenerlo; va y vuelve*/
+}
+
+.padre:hover .hijo{
+    animation-play-state: paused;
+
+    /* transform: translateX(100%);
+    background-color: blueviolet; */
+}
+
+@keyframes traslacion {
+    0% {
+        transform: translateX(0%) translateY(0%);
+    }
+    25%{
+        transform: translateX(100%) translateY(0%);
+    }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        transform: translateX(0%) translateY(100%);
+    }
+    100% {
+        background-color: red;
+        transform: translateX(0%) translateY(0%);
+    }
+}
