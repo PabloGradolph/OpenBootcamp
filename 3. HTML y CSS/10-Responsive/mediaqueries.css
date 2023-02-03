@@ -1,0 +1,45 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/* screen / print / speech */
+/* @media all and (max-width: 576px)  */
+/* @media (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+} */
+
+/* Diseño movile first: Diseño predeterminado para móvil y luego cambiamos
+para los demás. */
+@media (min-width: 576px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media (min-width: 995px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* Concatenamos */
+@media (min-height: 300px), (min-width: 1100px) {
+    p {
+        color: cyan;
+    }
+}
+
+/* Si se cumplen las dos condiciones */
+@media (orientation: landscape) and (min-height: 400px) {
+    p {
+        color: brown;
+    }
+}
