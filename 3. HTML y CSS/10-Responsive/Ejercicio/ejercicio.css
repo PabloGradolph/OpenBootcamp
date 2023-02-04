@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    color: white;
+    padding: 0.5rem;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    gap: 0.25rem;
+}
+
+.principal {
+    background-color: blueviolet;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra {
+    background-color: brown;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (max-width: 640px){
+    .contenedor {
+        flex-direction: column;
+    }
+    .barra {
+        flex-direction: row;
+        order: 1;
+    }
+}

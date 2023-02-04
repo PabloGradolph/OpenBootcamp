@@ -1,0 +1,34 @@
+/* https://codepen.io/enxaneta/full/adLPwv */
+
+.contenedor {
+    background-color: yellow;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+
+    /* Eje principal */
+    justify-content: space-around;
+    /* center, baseline, start, end, space-around, space-betweent */
+
+    /* Eje secundario */
+    align-items: center;
+    /* center, end, baseline, start */
+
+    /* flex-direction: column; */
+
+    /* Preserva el tamaño de los elementos */
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+/* Modificando el comportamiento de cada item */
+.item2 {
+    /* justify-self: end; */
+    align-self: stretch;
+}
