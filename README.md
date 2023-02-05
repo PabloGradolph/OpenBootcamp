@@ -14,7 +14,7 @@ Repositorio con todos mis códigos de los diferentes cursos que he hecho en la p
 [![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)]()
   
   - *HTML y CSS:* Con este curso de HTML y CSS aprenderás las bases de todo desarrollo web, pues ambos son los lenguajes estándar para el desarrollo de páginas web en el mundo. Empieza a maquetar tus aplicaciones y páginas web de manera profesional desde 0.<br>
-[![HTML5](https://img.shields.io/badge/html-blue?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)]() [![CSS](https://img.shields.io/badge/css-red?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)]()
+[![HTML5](https://img.shields.io/badge/html-blue?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)]() [![CSS](https://img.shields.io/badge/css-red?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)]() [![BOOTSTRAP](https://img.shields.io/badge/bootstrap-purple?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=101010)]()
 
 <h2>Enlace al Bootcamp: :link:</h2>
 
